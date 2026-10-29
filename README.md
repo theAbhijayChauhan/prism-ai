@@ -91,8 +91,10 @@ prism-ai/
 ├── tests/
 │   └── test_pipeline.py         # Automated Pytest / Unittest integration suite
 ├── scripts/
-│   └── generate_blueprint_pdf.py# ReportLab script generating the Master Blueprint PDF
-├── PRISM_AI_Project_Blueprint.pdf# 7-page technical blueprint & reference manual
+│   ├── generate_project_info_pdf.py # Generates 12-page comprehensive Project Info manual
+│   └── generate_blueprint_pdf.py    # ReportLab PDF toolchain
+├── Project_Info.pdf             # 12-page comprehensive architecture, implementation & defense manual
+├── Project Info.pdf             # Space-tolerant alias of Project_Info.pdf
 ├── run_all.bat                  # One-click Windows launch script
 └── run_all.ps1                  # One-click PowerShell launch script
 ```
